@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt_broj_2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="150"
+            Padding="30"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Elektrotehnička i ekonomska škola"
+                FontFamily="saturn"
+                FontSize="30"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"/>
+            <Button
+                x:Name="Button"
+                Text="Dont.click"/>
+            <Label
+                Text="Programiranje mobilnih uređaja"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <Label
+                Text="Teo Bunjevac &#x0a; 3.G &#x0a; Zoran Ivančić"
+                FontAttributes="None"
+                FontSize="18"
+                HorizontalOptions="EndAndExpand" 
+                VerticalOptions="EndAndExpand"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
